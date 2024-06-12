@@ -5,5 +5,5 @@ CREATE TABLE vault(
     document_type VARCHAR(100),
     uploaded_timestamp TIMESTAMP DEFAULT NOW(),
     file_size INTEGER,
-    attachment VARCHAR(255) --holds URL to document storage
+    attachment_URL VARCHAR(255) --holds URL to document storage
 );

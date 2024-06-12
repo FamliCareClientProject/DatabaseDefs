@@ -8,4 +8,5 @@ CREATE TABLE users(
     phone_number VARCHAR(20),
     profile_picture_url VARCHAR(255),
     loved_one_ID INT REFERENCES loved_ones(id)
+    is_admin BOOLEAN,
 );
